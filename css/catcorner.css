@@ -1,10 +1,13 @@
 body {
     margin: 0;
     padding: 20px;
-    font-family: Arial, sans-serif;
-    background-color: #f8f8f8;
+    font-family: 'Patrick Hand', cursive;
+    color: white;
+    background-color: #1D1D00;
     min-height: 100vh;
 }
+
+
 
 
 .gallery-container {
@@ -14,9 +17,11 @@ body {
 }
 
 h1 {
-    color: #333;
+    color: white;
     margin-bottom: 20px;
 }
+
+
 
 .image-scroll-container {
     display: flex;
@@ -25,10 +30,11 @@ h1 {
     height: 80vh;
     padding: 20px;
     scroll-behavior: smooth;
-    background: rgba(255, 255, 255, 0.2);
+    background: #342519;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
+
 
 
 .image-scroll-container img {

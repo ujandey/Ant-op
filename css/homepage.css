@@ -37,15 +37,15 @@ body {
     height: 8vh; /* Adjust height */
     background: rgba(255, 255, 255, 0.2); /* Light overlay for visibility */
     border-radius: 10px;
-    transition: transform 0.3s, background 0.3s;
 }
 
-.image-link:hover {
-    background: rgba(255, 255, 255, 0.4);
-    transform: scale(1.1);
-}
 
 /* Adjust positions */
+.cat-corner { top: 30%; left: 20%; }
+.my-pics { top: 45%; left: 35%; }
+.recipe-roulette { top: 60%; left: 50%; }
+.songs-op { top: 75%; left: 65%; }
+.anime-memes { top: 90%; left: 80%; }
 .cat-corner { top: 30%; left: 20%; }
 .my-pics { top: 45%; left: 35%; }
 .recipe-roulette { top: 60%; left: 50%; }

@@ -3,18 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anime Memes</title>
-    <link rel="stylesheet" href="../css/anime-memes.css">
-    <script async src="//assets.pinterest.com/js/pinit.js"></script>
+    <title>Anime Pics</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+        body {
+            font-family: 'Patrick Hand', cursive; /* Handwritten font */
+            background-color: #1D1D00; /* Dark Olive Black */
+            color: #F2E6D0; /* Light Cream */
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            color: #E3CDA8; /* Soft Beige */
+        }
+        .pinterest-widget {
+            width: 90%;
+            height: 800px;
+            border: none;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(226, 205, 168, 0.5);
+        }
+    </style>
 </head>
 <body>
-    <div class="gallery-container">
-        <h1>Anime Memes</h1>
-        <div class="pinterest-board">
-            <div id="anime-memes-gallery" class="gallery-grid"></div>
-        </div>
-
-    </div>
-    <script src="../js/anime-memes.js"></script>
+    <h1>Anime Pics</h1>
+    <iframe class="pinterest-widget" 
+        src="https://widgets.sociablekit.com/pinterest-board/iframe/25525821" 
+        width="100%" height="800">
+    </iframe>
 </body>
 </html>

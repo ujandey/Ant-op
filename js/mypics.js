@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     const gallery = document.getElementById('gallery');
     const basePath = '../images/mypics-assets/';
+    const loadingIndicator = document.getElementById('loading-indicator');
     
     // Create IntersectionObserver for lazy loading
     const observer = new IntersectionObserver((entries, observer) => {
@@ -8,6 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
             if (entry.isIntersecting) {
                 const img = entry.target;
                 img.src = img.dataset.src;
+                img.onload = () => img.classList.add('loaded'); // Add fade-in effect
                 img.removeAttribute('data-src');
                 observer.unobserve(img);
             }

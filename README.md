@@ -59,14 +59,9 @@ We welcome contributions from the community! To contribute:
    ```
 5. Open a Pull Request.
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Contact
-For any queries or support, feel free to reach out:
-- **Email:** [Your Email Here]
-- **GitHub Issues:** [GitHub Repo Issues Link]
-- **Social Media:** [Relevant Links]
+
+
 
 ---
 Thank you for using Ant-Op! 🚀

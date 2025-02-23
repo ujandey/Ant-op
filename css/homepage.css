@@ -36,7 +36,6 @@ body {
     position: absolute;
     width: 12vw; /* Adjust width */
     height: 8vh; /* Adjust height */
-    background: rgba(255, 255, 255, 0.2); /* Light overlay for visibility */
     border-radius: 10px;
 }
 

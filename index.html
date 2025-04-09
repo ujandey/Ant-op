@@ -1,8 +1,4 @@
 <!DOCTYPE html>
-<html lang<create_file>
-
-<content>
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,26 +8,18 @@
 </head>
 <body>
     <div class="container">
-        <img src="images/homepage.png" alt="Cat background" class="background">
-        <div class="image-links">
-            <a href="uploads/catcorner.html" class="image-link" style="position: absolute; top: 6%; left: -1%; width: 12%; height: 6%;"></a>
-            <a href="uploads/mypics.html" class="image-link" style="position: absolute; top: 6%; left: 19%; width: 12%; height: 6%;"></a>
-            <a href="uploads/recipe-roulette.html" class="image-link" style="position: absolute; top: 6%; left: 39%; width: 15%; height: 6%;"></a>
-            <a href="uploads/songs-op.html" class="image-link" style="position: absolute; top: 6%; left: 59%; width: 12%; height: 6%;"></a>
-            <a href="uploads/anime-memes.html" class="image-link" style="position: absolute; top: 6%; left: 74%; width: 15%; height: 6%;"></a>
-
-
-
-
-
-
-
-
-        </div>
-
+        <picture>
+            <source media="(max-width: 768px)" srcset="images/mobile.png">
+            <img src="images/homepage.png" alt="Cat background" class="background">
+        </picture>
+        <nav class="navbar">
+            <a href="uploads/catcorner.html" class="nav-link">Cat Corner</a>
+            <a href="uploads/mypics.html" class="nav-link">My Pics</a>
+            <a href="uploads/recipe-roulette.html" class="nav-link">Who is antara</a>
+            <a href="uploads/songs-op.html" class="nav-link">Songs OP</a>
+            <a href="uploads/anime-memes.html" class="nav-link">Anime Memes</a>
+        </nav>
     </div>
     <script src="js/homepage.js"></script>
-   
-
 </body>
 </html>
